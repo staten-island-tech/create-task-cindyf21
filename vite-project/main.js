@@ -22,6 +22,7 @@ async function getData(URL) {
         `
         <div class="gallery">
         <h2 class="emoji"> ${data.name} </h2>
+        //add to show more info (country? domain?)
         </div>      
         `
     ));
