@@ -12,6 +12,10 @@ const DOMSelectors = {
 };
 
 
+//const URL = "http://universities.hipolabs.com/search?name"
+
+//const URL = "https://rickandmortyapi.com/api/character"
+
 const URL = ""
 
 async function getData(URL) {
@@ -23,8 +27,7 @@ async function getData(URL) {
         DOMSelectors.container.insertAdjacentHTML("beforeend", 
         `
         <div class="gallery">
-        <h2 class="emoji"> ${data.htmlCode[0]} </h2>
-        <h3 class="emojiName"> ${data.name} </h3>
+        <h2 class="emoji"> ${data.name} </h2>
         </div>      
         `
     ));
