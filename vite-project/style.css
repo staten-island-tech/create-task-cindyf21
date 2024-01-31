@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(169, 169, 248);
+}
+
+.title {
+    font-size: 5rem;
+}
+
+#nav-bar {
+    display: flex;
+}
+
+.btn {
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(186, 224, 255);
+}

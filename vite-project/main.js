@@ -7,16 +7,10 @@ const DOMSelectors = {
   btn4: document.getElementById("btn4"),
   btn5: document.getElementById("btn5"),
   btn6: document.getElementById("btn6"),
-  btn7: document.getElementById("btn7"),
   container: document.getElementById("container")
 };
 
-
-//const URL = "http://universities.hipolabs.com/search?name"
-
-//const URL = "https://rickandmortyapi.com/api/character"
-
-const URL = ""
+const URL = "http://universities.hipolabs.com/search?name"
 
 async function getData(URL) {
   try {
@@ -41,3 +35,34 @@ getData(URL);
 function clearData() {
   DOMSelectors.container.innerHTML = ""
 }
+
+//buttons filter based on country
+DOMSelectors.btn1.addEventListener("click", function() {
+  clearData();
+  getData(`http://universities.hipolabs.com/search?name&country=United States`)
+}),
+
+DOMSelectors.btn2.addEventListener("click", function() {
+  clearData();
+  getData(`http://universities.hipolabs.com/search?name&country=Canada`)
+}),
+
+DOMSelectors.btn3.addEventListener("click", function() {
+  clearData();
+  getData(`http://universities.hipolabs.com/search?name&country=United Kingdom`)
+}),
+
+DOMSelectors.btn4.addEventListener("click", function () {
+  clearData();
+  getData(`http://universities.hipolabs.com/search?name&country=China`)
+}),
+
+DOMSelectors.btn5.addEventListener("click", function () {
+  clearData();
+  getData(`http://universities.hipolabs.com/search?name&country=Japan`)
+}),
+
+DOMSelectors.btn6.addEventListener("click", function () {
+  clearData();
+  getData(URL)
+})
