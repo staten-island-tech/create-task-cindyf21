@@ -1,9 +1,10 @@
 body {
-    background-color: rgb(169, 169, 248);
+    background-color: rgb(132, 160, 223);
 }
 
 .title {
     font-size: 5rem;
+    text-align: center;
 }
 
 #nav-bar {
@@ -12,10 +13,28 @@ body {
 
 .btn {
     padding: 1rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    margin: 0.5rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    margin: 1rem;
     font-size: 1.2rem;
     font-weight: bold;
-    background-color: rgb(186, 224, 255);
+    background-color: rgb(210, 226, 240);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1%;
+}
+  
+.gallery {
+    margin: 2rem;
+    padding: 1rem;
+    width: 18%;
+    background-color: white;
+}
+
+.box {
+    text-align: center;
 }
