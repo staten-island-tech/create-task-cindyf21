@@ -1,24 +1,26 @@
 body {
-    background-color: rgb(132, 160, 223);
+    background-color: rgb(210,158,172);
 }
 
 .title {
-    font-size: 5rem;
+    font-size: 4.8rem;
     text-align: center;
 }
 
 #nav-bar {
     display: flex;
+    margin-left: 7.5rem;
 }
 
 .btn {
     padding: 1rem;
     padding-left: 4.5rem;
     padding-right: 4.5rem;
-    margin: 1rem;
+    margin: 1.5rem;
     font-size: 1.2rem;
     font-weight: bold;
-    background-color: rgb(210, 226, 240);
+    background-color: rgb(236, 198, 208);
+    border-radius: 1rem;
 }
 
 .container {
@@ -32,7 +34,9 @@ body {
     margin: 2rem;
     padding: 1rem;
     width: 18%;
-    background-color: white;
+    background-color: rgb(241, 228, 232);
+    border-radius: 1rem;
+    border: solid black 0.15rem;
 }
 
 .box {
