@@ -10,7 +10,7 @@ const DOMSelectors = {
   container: document.getElementById("container")
 };
 
-const URL = "http://universities.hipolabs.com/search?name"
+const URL = "https://universities.hipolabs.com/search?name"
 
 async function getData(URL) {
   try {
